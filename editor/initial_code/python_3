@@ -1,4 +1,4 @@
-def celsius_para_fahrenheit(c,f):
+def celsius_para_fahrenheit(c):
     # escreva aqui seu código
     return None
 
