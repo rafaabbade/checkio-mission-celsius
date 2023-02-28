@@ -1,19 +1,16 @@
-def soma(a,b):
+def celsius_para_fahrenheit(c,f):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(soma(3,2))
+print(celsius_para_fahrenheit(0))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-# testa a função com números positivos como parâmetros
-assert soma(2, 3) == 5 
-    
-# testa a função com um número negativo como parâmetro
-assert soma(-1, 5) == 4
-    
-# testa a função com zero como parâmetro
-assert soma(0, 0) == 0
+assert celsius_para_fahrenheit(0) == 32.0 
+
+assert celsius_para_fahrenheit(-40) == -40.0
+
+assert celsius_para_fahrenheit(100) == 212.0
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
